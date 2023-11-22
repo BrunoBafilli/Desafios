@@ -49,9 +49,10 @@ char[] CifraDeCesar(string msg, int chave, bool cript){
         if(ehLetra){
             char letraCifrada;
             if(EhCaixaAlta)
-                letraCifrada = Convert.ToChar(ALFABETO[(posLetra + chave) % 26]);
+                letraCifrada = Convert.ToChar(ALFABETO[(posLetra + chave) % alfabeto
+                .Length]);
             else
-                letraCifrada = Convert.ToChar(alfabeto[(posLetra + chave) % 26]);
+                letraCifrada = Convert.ToChar(alfabeto[(posLetra + chave) % alfabeto.Length]);
 
             fraseCifrada[i] = letraCifrada;
         } else {
