@@ -1,0 +1,15 @@
+/Users/bruno/Documents/GitHub/Desafios/cifraDeCesar/bin/Debug/net8.0/cifraDeCesar
+/Users/bruno/Documents/GitHub/Desafios/cifraDeCesar/bin/Debug/net8.0/cifraDeCesar.deps.json
+/Users/bruno/Documents/GitHub/Desafios/cifraDeCesar/bin/Debug/net8.0/cifraDeCesar.runtimeconfig.json
+/Users/bruno/Documents/GitHub/Desafios/cifraDeCesar/bin/Debug/net8.0/cifraDeCesar.dll
+/Users/bruno/Documents/GitHub/Desafios/cifraDeCesar/bin/Debug/net8.0/cifraDeCesar.pdb
+/Users/bruno/Documents/GitHub/Desafios/cifraDeCesar/obj/Debug/net8.0/cifraDeCesar.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bruno/Documents/GitHub/Desafios/cifraDeCesar/obj/Debug/net8.0/cifraDeCesar.AssemblyInfoInputs.cache
+/Users/bruno/Documents/GitHub/Desafios/cifraDeCesar/obj/Debug/net8.0/cifraDeCesar.AssemblyInfo.cs
+/Users/bruno/Documents/GitHub/Desafios/cifraDeCesar/obj/Debug/net8.0/cifraDeCesar.csproj.CoreCompileInputs.cache
+/Users/bruno/Documents/GitHub/Desafios/cifraDeCesar/obj/Debug/net8.0/cifraDeCesar.sourcelink.json
+/Users/bruno/Documents/GitHub/Desafios/cifraDeCesar/obj/Debug/net8.0/cifraDeCesar.dll
+/Users/bruno/Documents/GitHub/Desafios/cifraDeCesar/obj/Debug/net8.0/refint/cifraDeCesar.dll
+/Users/bruno/Documents/GitHub/Desafios/cifraDeCesar/obj/Debug/net8.0/cifraDeCesar.pdb
+/Users/bruno/Documents/GitHub/Desafios/cifraDeCesar/obj/Debug/net8.0/cifraDeCesar.genruntimeconfig.cache
+/Users/bruno/Documents/GitHub/Desafios/cifraDeCesar/obj/Debug/net8.0/ref/cifraDeCesar.dll
