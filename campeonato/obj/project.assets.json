@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bruno\\Desktop\\GitHubCDC\\Desafios\\cifraDeCesar\\cifraDeCesar.csproj",
-      "projectName": "cifraDeCesar",
-      "projectPath": "C:\\Users\\bruno\\Desktop\\GitHubCDC\\Desafios\\cifraDeCesar\\cifraDeCesar.csproj",
+      "projectUniqueName": "C:\\Users\\bruno\\Desktop\\GitHubCDC\\Desafios\\campeonato\\campeonato.csproj",
+      "projectName": "campeonato",
+      "projectPath": "C:\\Users\\bruno\\Desktop\\GitHubCDC\\Desafios\\campeonato\\campeonato.csproj",
       "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bruno\\Desktop\\GitHubCDC\\Desafios\\cifraDeCesar\\obj\\",
+      "outputPath": "C:\\Users\\bruno\\Desktop\\GitHubCDC\\Desafios\\campeonato\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
