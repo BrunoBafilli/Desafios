@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bruno\\Desktop\\GitHubCDC\\Desafios\\cifraDeCesar\\cifraDeCesar.csproj": {}
+    "C:\\Users\\bruno\\Desktop\\GitHubCDC\\Desafios\\campeonato\\campeonato.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bruno\\Desktop\\GitHubCDC\\Desafios\\cifraDeCesar\\cifraDeCesar.csproj": {
+    "C:\\Users\\bruno\\Desktop\\GitHubCDC\\Desafios\\campeonato\\campeonato.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bruno\\Desktop\\GitHubCDC\\Desafios\\cifraDeCesar\\cifraDeCesar.csproj",
-        "projectName": "cifraDeCesar",
-        "projectPath": "C:\\Users\\bruno\\Desktop\\GitHubCDC\\Desafios\\cifraDeCesar\\cifraDeCesar.csproj",
+        "projectUniqueName": "C:\\Users\\bruno\\Desktop\\GitHubCDC\\Desafios\\campeonato\\campeonato.csproj",
+        "projectName": "campeonato",
+        "projectPath": "C:\\Users\\bruno\\Desktop\\GitHubCDC\\Desafios\\campeonato\\campeonato.csproj",
         "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bruno\\Desktop\\GitHubCDC\\Desafios\\cifraDeCesar\\obj\\",
+        "outputPath": "C:\\Users\\bruno\\Desktop\\GitHubCDC\\Desafios\\campeonato\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,12 +39,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "BenchmarkDotNet": {
-              "target": "Package",
-              "version": "[0.13.10, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

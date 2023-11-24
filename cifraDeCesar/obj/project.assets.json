@@ -1752,24 +1752,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/bruno/.nuget/packages/": {}
+    "C:\\Users\\bruno\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bruno/Documents/GitHub/Desafios/cifraDeCesar/cifraDeCesar.csproj",
+      "projectUniqueName": "C:\\Users\\bruno\\Desktop\\GitHubCDC\\Desafios\\cifraDeCesar\\cifraDeCesar.csproj",
       "projectName": "cifraDeCesar",
-      "projectPath": "/Users/bruno/Documents/GitHub/Desafios/cifraDeCesar/cifraDeCesar.csproj",
-      "packagesPath": "/Users/bruno/.nuget/packages/",
-      "outputPath": "/Users/bruno/Documents/GitHub/Desafios/cifraDeCesar/obj/",
+      "projectPath": "C:\\Users\\bruno\\Desktop\\GitHubCDC\\Desafios\\cifraDeCesar\\cifraDeCesar.csproj",
+      "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bruno\\Desktop\\GitHubCDC\\Desafios\\cifraDeCesar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/bruno/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1809,7 +1811,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
