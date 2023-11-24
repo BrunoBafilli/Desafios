@@ -1,65 +1,54 @@
-﻿using System;
-					
-public class Program
+﻿char[] alfabeto = new char[26];
+char[] ALFABETO = new char[26];
+
+for(int i = 0; i < alfabeto.Length; i++)
 {
-	public static void Main()
-	{
-		string frase = "AmEIXa_abd";
+    alfabeto[i] = Convert.ToChar('A'+i);
+    ALFABETO[i] = Convert.ToChar('a' + i);
+}
 
-char[] criptada = CifraDeCesar(frase, 1, true);
-char[] decriptada = CifraDeCesar(frase, 1, false);
+string msg = "ola_mundo";
+int chave = 10;
 
-Console.WriteLine(criptada);
-Console.WriteLine(decriptada);
+string criptado = cesar(false);
+string decriptado = cesar(true);
 
-char[] CifraDeCesar(string msg, int chave, bool cript){
+Console.WriteLine(criptado);
+Console.WriteLine(decriptado);
 
-    if(!cript)
-        chave -= chave;
+string cesar(bool criptar) {
 
-    char[] alfabeto = new char[26] {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
-    char[] ALFABETO = new char[26] {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
-    
-    char[] fraseCifrada = new char[msg.Length];
+    string cript = "";
 
-    for(int i = 0; i < msg.Length; i++){
+    if (criptar)
+        chave = 0;
 
+    for (int i = 0; i < msg.Length; i++)
+    {
         bool ehLetra = false;
-        bool EhCaixaAlta = false;
-        int posLetra = 0;
+        for (int t = 0; t < 26; t++)
+        {
+            int c = t;
+            if (t + chave > 26)
+                c = 0 + chave; // ou pode trocar a linha 39 e 45 para cript += alfabeto[(c + chave) % 26];
 
-        for(int t = 0; t < alfabeto.Length; t++){
-            if(msg[i] == ALFABETO[t]){
-                posLetra = t;
+            if (alfabeto[t] == msg[i])
+            {
                 ehLetra = true;
-                EhCaixaAlta = true;
+                cript += alfabeto[c + chave];
+                break;
+            }
+            else if (ALFABETO[t] == msg[i])
+            {
+                ehLetra = true;
+                cript += ALFABETO[c + chave];
                 break;
             }
         }
-
-        if(!EhCaixaAlta){
-            for(int t = 0; t < alfabeto.Length; t++){
-                if(msg[i] == alfabeto[t]){
-                    posLetra = t;
-                    ehLetra = true;
-                    break;
-                }
-            }
-        }
-        if(ehLetra){
-            char letraCifrada;
-            if(EhCaixaAlta)
-                letraCifrada = Convert.ToChar(ALFABETO[(posLetra + chave) % alfabeto
-                .Length]);
-            else
-                letraCifrada = Convert.ToChar(alfabeto[(posLetra + chave) % alfabeto.Length]);
-
-            fraseCifrada[i] = letraCifrada;
-        } else {
-            fraseCifrada[i] += msg[i];
-        }
+        if (!ehLetra)
+            cript += msg[i];
     }
-    return fraseCifrada;
+    return cript;
 }
-	}
-}
+
+  
