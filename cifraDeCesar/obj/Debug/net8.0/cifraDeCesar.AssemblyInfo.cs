@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cifraDeCesar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5e4f6eaaa6f47bad2ab03f3ec03aa100e3e6244")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b32b2af52b44dbe1374f95ee2a014189636783cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("cifraDeCesar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cifraDeCesar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

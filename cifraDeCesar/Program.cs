@@ -1,4 +1,4 @@
-﻿char[] alfabeto = new char[26];
+char[] alfabeto = new char[26];
 char[] ALFABETO = new char[26];
 
 for(int i = 0; i < alfabeto.Length; i++)
@@ -10,8 +10,8 @@ for(int i = 0; i < alfabeto.Length; i++)
 string msg = "ola_mundo";
 int chave = 10;
 
-string criptado = cesar(false);
-string decriptado = cesar(true);
+string criptado = cesar(true);
+string decriptado = cesar(false);
 
 Console.WriteLine(criptado);
 Console.WriteLine(decriptado);
@@ -20,7 +20,7 @@ string cesar(bool criptar) {
 
     string cript = "";
 
-    if (criptar)
+    if (!criptar)
         chave = 0;
 
     for (int i = 0; i < msg.Length; i++)
