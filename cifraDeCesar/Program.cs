@@ -30,7 +30,7 @@ string cesar(bool criptar) {
         {
             int c = t;
             if (t + chave > 26)
-                c = 0 + chave; // ou pode trocar a linha 39 e 45 para cript += alfabeto[(c + chave) % 26];
+                c = chave; // ou pode trocar a linha 39 e 45 para cript += alfabeto[(c + chave) % 26];
 
             if (alfabeto[t] == msg[i])
             {
